@@ -1,10 +1,8 @@
 ### your site title here
 
-title: Hagura - Light!
-baseurl: /hagura # name of the repository
-email: your@email.com
-
-
+title: Eve: Programming designed for humans!
+baseurl: /
+email: jiansongy@gmail.com
 
 highlighter: rouge
 markdown: kramdown
@@ -12,10 +10,10 @@ markdown: kramdown
 
 
 # Tracker
-analytics: UA-83979019-1
+analytics: 
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname: 
 
 
 #optimization
