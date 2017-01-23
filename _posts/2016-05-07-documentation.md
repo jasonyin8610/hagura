@@ -1,60 +1,21 @@
 ---
+title: EVE获230万美元种子轮融资
+date: '2016-05-07 00:00:00'
 layout: post
-title: Documentation
 ---
+# 希望让普通人也能编程的EVE获230万美元融资
+36氪 • boxi • 2014-10-02 
 
-* Do not remove this line (it will not be displayed) 
-{:toc}
+由微软Visual Studio团队前产品经理Chris Granger开发的旨在彻底降低开发难度的Eve获得了230万美元的A轮融资。
 
-# Features:
-Hagura is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well. 
+Chris Granger曾是微软Visual Studio团队的产品经理。他开发的Light Table是在Kickstarter上成功众筹得30万美元的IDE环境，是唯一一个众筹金额超过30万美元的开发环境，成为Kickstarter上筹款金额最高的10大技术项目之一。Light Table的目的是降低编程开发难度，令IDE不仅仅是编辑器和项目管理器，还应该成为开发者真正的工作台。Light Table支持Python、Clojure、JavaScript等多种语言，具备文档无所不在、即时反馈、绘画台、代码高亮显示等便捷功能，这个开源的IDE赢得了不少开发者的青睐。
 
-Suitable fonts are selected for better readability. Since the theme is created for smartphone reading, the theme is very light so that it loads instantly on a slow data connection.
+但是Chris Granger仍然认为包括Light Table在内的IDE改进还不够，这些改进只是提高了开发者的生产力，但是对于那些不熟悉编程的人来说仍然无法帮助他们打开编程的大门。换句话说，现在的编程环境对于非程序员来说依然是不友好的。因此Chris Granger决定推出EVE来试图解决这个问题。
 
-The theme comes with pre-installed **analytics**, **disqus** and **html compressor**. But make sure you change key parameters in the **_config.yml** file.
+其愿景是把EVE做成一个Excel式的web应用，任何人只需绘制界面然后通过移动表格中的行列数据构成的逻辑即可生成软件。应用的发布和共享也很简单，发送一条到托管web应用的链接即可搞定。应用在后台可以连接提供API的服务，通过众多的API，开发出来的应用将可以与Facebook、Twitter、Google Maps等集成，从而提供强大的功能。
 
-## Switch Night-Mode
-The best part is the night-mode that comes with this theme. Once you click on night-mode, the website remebers it untill you close or toggle!
+按照Granger的设想，其简单程度应该可以让一个普通人（非程序员）开发出像Kickstarter一样复杂的网站。当然，如果内置的逻辑不能满足要求，EVE也可以让编码者利用JavaScript来编写自定义的函数。
 
-# Installation: 
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+跟Light Table一样，Granger计划把Eve开源，同时提供一个Github式的协作环境，用户可以把自己编排的表格（逻辑）和自定义的函数发布到这个平台上，其他用户如果希望使用协作、版本管理、托管、计算等功能，则需付费使用，从而实现Eve的货币化。
 
-Watch my video on instlallation
-<iframe class="video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0?rel=0" frameborder="0" allowfullscreen></iframe>
-
-## How to delete old **gh-pages** branch?
-After forking the repository, click on **branches**.
-
-![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
-
-Delete ``gh-pages`` branch.
-![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
-
-You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
-
-![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
-
-Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
-
-This process will host the theme as a **Project Page**. You can also download the files for local development. 
-
-The default theme will look like this
-
-![webjeda hagura jekyll theme]({{site.baseurl}}/images/hagura-1.png)
-
-
-This theme is responsive as well.
-
-![webjeda hagura responsive jekyll theme]({{site.baseurl}}/images/hagura-responsive.png)
-{: style="text-align:center"}
-
-# Development
-Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
-
-# License
-MIT License
-
-# Change Log
-
-### Version 0.8
-* Initial release with a reader-friendly layout.
+Granger的新项目受到了多位著名投资人的青睐，今天他宣布已经从Andreessen Horowitz合伙人Chris Dixon、YC负责人Sam Altman及实现Google个性化搜索的Sep Kamvar等处获得230万美元的种子轮融资。事实上，这些投资者里面有不少人都曾设想甚至进行过简化编程的努力，因此他们都非常关心这个项目究竟能做成什么样。用JavaScript开发的EVE预计将于2015年初发布，届时大家就可以看到EVE究竟能达到什么样的效果了。
