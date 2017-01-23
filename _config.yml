@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Eve: Programming designed for humans!
-baseurl: /
+baseurl:
 email: jiansongy@gmail.com
 
 highlighter: rouge
